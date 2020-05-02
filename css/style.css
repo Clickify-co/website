@@ -1,0 +1,90 @@
+body{
+    font-family: 'Lato';
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+/*Landing*/
+.landing{
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+    /*Navbar*/
+
+    .nav-link{
+        color: black !important;
+        border-bottom: 2px solid white;
+        transition:border-color 0.3s ease-in;
+        margin: auto 15px;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid #007BFF;
+    }
+    /*Navbar*/
+
+    /*Hero-text*/
+    .hero{
+        font-size: 60px;
+        font-family: 'Exo' !important;
+        font-weight: 900;
+    }
+    .sub-hero{
+        font-size: 20px;
+        color: darkslategray;
+    }
+/* Landing */
+
+/* Quick Shrink */
+.quickshrink{
+    min-height: 15vh;
+    background-color: #007BFF;
+}
+    /* Generated Link */   
+    #generatedLink{
+        min-height: 8vh;
+        border-radius: 5px;
+    }
+/* Quick Shrink */
+
+/* Section-1 */
+.section-1{
+    min-height: 80vh;
+}
+
+.hoverCard{
+    min-height: 40vh;
+    transition: 0.3s ease-out;
+}
+.hoverCardTitle{
+    font-size: 24px;
+}
+.hoverCardIcon>i{
+    font-size: 50px;
+}
+.hoverCardBody{
+    color: dimgrey;
+    transition: 0.3s ease-out;
+}
+.hoverCard:hover{
+    background-color: #007BFF;
+    color: white !important;
+    transform: translate3d(-3px,-5px,0);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.hoverCard:hover .hoverCardBody{
+    color: white !important;
+}
+/* Section-1 */
+
+/* Call-to-action */
+.call-to-action{
+    min-height: 35vh;
+}
+/* .call-to-action */
+
+/* Footer */
+footer{
+    min-height: 10vh;
+}
