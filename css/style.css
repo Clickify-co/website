@@ -96,3 +96,9 @@ footer{
     .tnc{
         font-size: 12px;
     }
+/* SIGN UP PAGE */
+
+/* 404 ERROR PAGE */
+    .landing404{
+        min-height: 80vh;
+    }
